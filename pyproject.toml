@@ -8,6 +8,9 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "numpy (>=2.2.3,<3.0.0)",
+    "pyrealsense2 (>=2.55.1.6486,<3.0.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)"
 ]
 
 [tool.poetry]
