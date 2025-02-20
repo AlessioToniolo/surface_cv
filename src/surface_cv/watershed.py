@@ -73,7 +73,7 @@ def improved_watershed(image):
 if __name__ == "__main__":
     # Load image
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    image_path = os.path.join(current_dir, "IMG_7505.png")
+    image_path = os.path.join(current_dir, "cont.png")
     image = cv2.imread(image_path)
     
     # Apply improved watershed
